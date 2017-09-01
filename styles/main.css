@@ -2,6 +2,32 @@
     height: 92px;
     width: 272px;
     position: relative;
-    top: 182px;
+    top: 120px;
     left: 469px;
+}
+
+.nav {
+    display: inline-block;
+    height: 50px;
+    width: 100%;
+}
+
+.navLink {
+    display: inline-block;
+}
+
+.navBar {
+    float: right;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    color: #000;
+}
+
+a:hover {
+    text-decoration: underline;
 }
